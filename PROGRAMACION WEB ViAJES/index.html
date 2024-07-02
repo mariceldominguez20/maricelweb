@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViajesTravelMax</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- Fuente enlace cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- enlace de archivo css personalizado -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--comienza la sección del encabezado-->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel<span>M</span>ax</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#paquetes">paquetes</a>
+            <a href="#Reservar">reservas</a>
+            <a href="#servicios">servicios</a>
+            <a href="#lugares">lugares</a>
+            <a href="#contactos">contactos</a>
+            <a href="#experiencias">experiencias</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Buscar aqui...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!--termina la sección del encabezado-->
+
+    <!-- contenedor de formulario de inicio de sesión -->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Bienvenido</h3>
+            <input type="email" class="box" placeholder="Ingrese su email">
+            <input type="password" class="box" placeholder="Ingrese su contraseña">
+            <input type="submit" value="Ingresar" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Recordarme</label>
+            <p>Olvido contraseña? <a href="#"> haga click aqui</a></p>
+            <p>No tengo cuenta<a href="#"> Registrate ahora</a></p>
+        </form>
+    </div>
+    </div>
+
+    <!-- la sección de inicio -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>ES TIEMPO DE VIAJAR</h3>
+            <p>ENCONTRA LOS MEJORES PAQUETES TURISTICOS</p>
+            <a href="#" class="btn">Conoce nuestros Destinos</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src-="Imagenes/video1.mp4"></span>
+            <span class="vid-btn" data-src="Imagenes/video2.mp4"></span>
+            <span class="vid-btn" data-src="Imagenes/video3.mp4"></span>
+            <span class="vid-btn" data-src="Imagenes/video4.mp4"></span>
+            <span class="vid-btn" data-src="Imagenes/video5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="Imagenes/video1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    
+    </section>
+
+    <!-- finaliza la sección de inicio -->
+
+
+
+    <!-- inicia seccion de paquetes -->
+
+    <section class="paquetes" id="paquetes">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>q</span>
+            <span>u</span>
+            <span>e</span>
+            <span>t</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="Imagenes/p1.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Maravillas de Europa 2025 </h3>
+                    <H2>Duración: 15 noches</H2>
+                    <p>Destinos: Madrid - Bordeaux - París - Zúrich - Venecia - Florencia - Roma - Barcelona
+                        Saliendo desde: Buenos Aires</p>
+                    <p>Fecha de salida: Vie. 18/04/25 al Dom. 04/05/25</P>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$ 4.734.520</div>
+                    <div>
+                        <h1>precio por persona</h1>
+                    </div>
+                    <div>Incluye Imp. PAIS + AFIP</div>
+                    <a href="#" class="btn">Ver Más...</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Imagenes/p3.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Sicilia y Sur de Italia </h3>
+                    <h2>Duración: 14 noches</h2>
+                    <p>Destinos: Venecia - Florencia - Roma - Atenas - Olympia - Kalamata
+                        Saliendo desde: Buenos Aires</p>
+                    <p> Fecha de salida: Dom. 08/09/24 al Dom. 22/09/24</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+
+                    <div class="price">$7.621.846</div>
+                    <div>
+                        <h1>precio por persona</h1>
+                    </div>
+                    <div>Incluye Imp. PAIS + AFIP</div>
+                    <a href="#" class="btn">Ver Más...</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/p7.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Caribe Isla Holbox y Cancun </h3>
+                    <h2>Duración: 9 noches all inclusive</h2>
+                    <p> 4 noches de alojamiento en Holbox <br>
+                        5 noches de alojamiento en Cancun
+                        Boleto de Ferry Chiquilá - Isla Holbox.
+                    <p> Fecha de salida: Dom. 08/08/24 al Dom. 22/08/24</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$3.079.266</div>
+                    <div>
+                        <h1>precio por persona</h1>
+                    </div>
+                    <div>Incluye Imp. PAIS + AFIP</div>
+                    <a href="#" class="btn">Ver Más...</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/disney-world-mickey-mouse-minnie-mouse-jpg-1655400733.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Disney Word </h3>
+                    <h2>Duración: 14 noches</h2>
+                    <p>6 Noches de alojamiento en Disney <br>
+                        4 Noches de alojamiento en Universal <br>
+                        4 Noches de alojamiento en Miami br
+                        Admisiones a los parques</p>
+                    <p> Fecha de salida: Dom. 22/09/25 al Dom. 1/10/25</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$7.362.354</div>
+                    <div>
+                        <h1>precio por persona</h1>
+                    </div>
+                    <div>Incluye Imp. PAIS + AFIP</div>
+                    <a href="#" class="btn">Ver Más...</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/cataratas-bellas-Kopie.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cataratas del Iguazú </h3>
+                    <h2>Duración: 7 noches</h2>
+                    <p>Pasaje aéreo con Aerolineas Argentinas
+                        Traslado aeropuerto / hotel / aeropuerto <br>
+                        7 noches de alojamiento con régimen desayuno</p>
+                    <p> Fecha de salida:Lun. 12/08/24 al Jue. 15/08/24 </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$550.000</div>
+                    <div>
+                        <h1>precio por persona</h1>
+                    </div>
+                    <div>Incluye Imp. PAIS + AFIP</div>
+                    <a href="#" class="btn">Ver Más...</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/ushuaia.jpg" alt="">
+                
+                <div class="content">
+                    <h3> <i class="fas fa-location-dot"></i> Calafate y Ushuaia -</h3>
+                    <h2>Duración: 6 noches</h2>
+                    <p>Pasaje aéreo con Aerolineas Argentinas.
+                        3 noches de alojamiento con desayuno en Calafate
+                        3 noches de alojamiento con desayuno en Ushuaia</p>
+                    <p> Fecha de salida:Lun. 12/08/24 al Jue. 15/08/24 </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$850.000</div>
+                    <div>
+                        <h1>precio por persona</h1>
+                    </div>
+                    <div>Incluye Imp. PAIS + AFIP</div>
+                    <a href="#" class="btn">Ver Más...</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- finaliza seccion de paquetes -->
+
+        <!-- comienza seccion libro -->
+
+        <section class="Reservar" id="Reservar">
+
+
+            <h1 class="heading">
+                <span>R</span>
+                <span>e</span>
+                <span>s</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>a</span>
+                <span>r</span>
+            </h1>
+    
+            <div class="row">
+    
+                <div class="image">
+                    <img src="Imagenes/niño viajandp.svg" alt="">
+                </div>
+    
+                <form action="">
+                    <div class="inputBox">
+                        <h3> <i class="fas fa-plane-departure"> </i> ORIGEN</h3>
+                        <input type="text" placeholder="Ingrese hacia donde">
+                    </div>
+                    <div class="inputBox">
+                        <h3> <i class="fas fa-plane-arrival"> </i> DESTINO</h3>
+                        <input type="text" placeholder="Ingrese hacia donde">
+                    </div>
+                    <div class="inputBox">
+                        <h3> <i class="fas fa-person"></i> PERSONAS</h3>
+                        <input type="number" placeholder="Ingrese Cantidad">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Partida</h3>
+                        <input type="date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Regreso</h3>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="btn" value="Buscar Vuelo">
+                </form>
+            </div>
+    
+        </section>
+    
+        <!-- finaliza seccion libro -->
+
+    <!-- inicia seccion de servicio -->
+
+    <section class="servicios" id="servicios">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>i</span>
+            <span>o</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Hoteles Confortables</h3>
+                <p>Los Hoteles ofrecen:
+                    Restaurantes y restobar <br>
+                    SUM y seguridad privada <br>
+                    WiFi <br>
+                    Drugstore <br>
+                    Cajas de seguridad <br>
+                    Lavandería</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Comidas y Bebidas</h3>
+                <p> Se incluyen dentro de estos: desayunos, comidas, cenas (en diferentes planes) almuerzos, o recesos
+                    para tomar café.</p>
+            </div>
+            <div class="box">
+
+                <i class="fas fa-first-aid"></i>
+                <h3>Asistencia al Viajero</h3>
+                <p>Te protege ante posibles situaciones o emergencias que puedan ocurrir
+                    durante tu viaje, como por ejemplo: asistencia médica, cancelación o retraso de vuelos, asesoría
+                    legal, pérdida o robo de equipaje. El seguro te brinda tranquilidad, seguridad y ahorro al
+                    viajar.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-person-hiking"></i>
+                <h3>Excursiones</h3>
+                <p>Ofrecemos una increíble selección de excursiones que se adaptan a todos los gustos: ya sea que elija
+                    la aventura, la naturaleza, la cultura o la historia, hemos diseñado emocionantes excursiones para
+                    vos y toda la familia. </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-right-left"></i>
+                <h3>Traslados</h3>
+                <p>Ofrecemos un sistema de tarifas a nivel mundial en más de 70 paises, conservando la
+                    calidad de servicio global, favoreciendo el incremento en sus ganancias y la satisfacción de sus
+                    clientes.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane-departure"></i>
+                <h3>Vuelos</h3>
+                <p>Aprovechá nuestra oferta de vuelos y pasajes aéreos para tu viaje. Tenemos vuelos baratos a los
+                    mejores destinos, reservá ahora y pagá en cuotas!</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- finaliza seccion de servicio -->
+
+    <!-- inicia seccion de galeria -->
+    <section class="lugares" id="lugares">
+
+        <h1 class="heading">
+
+            <span>d</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>i</span>
+            <span>n</span>
+            <span>o</span>
+            <span>s</span>
+            <span class="space"></span>
+            <span>i</span>
+            <span>m</span>
+            <span>p</span>
+            <span>e</span>
+            <span>r</span>
+            <span>d</span>
+            <span>i</span>
+            <span>b</span>
+            <span>l</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="Imagenes/g1_turquia.jpg" alt="">
+                <div class="content">
+                    <h3>TURQUIA</h3>
+                    <p>Circuito todo incluido a Turquía, el tour mas completo para conocer las bellezas otomanas.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g_2Glaciar-Perito-Moreno2.jpg" alt="">
+                <div class="content">
+                    <h3>PATAGONIA</h3>
+                    <p>Es todo de una belleza inconmensurable. Cerros, montañas, valles, lagos, bosques, fauna y flora
+                        que vale la pena conocer y, admirar.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g3_tailandia.jpg" alt="">
+                <div class="content">
+                    <h3>TAILANDIA</h3>
+                    <p>Ideal para luna de miel, un viaje que combina la aventura y el romanticismo.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g_4machu.jpg" alt="">
+                <div class="content">
+                    <h3>MACHU PICCHU, PERU</h3>
+                    <p>es considerado el sueño de muchos debido a la majestuosidad del paisaje, su historia, la energía
+                        que irradia y las muchas aventuras que ofrece</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g5_varadero.jpg" alt="">
+                <div class="content">
+                    <h3>VARADERO, CUBA</h3>
+                    <p>Si lo que buscas es solo las playas de Varadero, éste paquete es el que buscas incluye vuelos
+                        desde cualquier parte del mundo.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g_6paris.jpg" alt="">
+                <div class="content">
+                    <h3>PARIS</h3>
+                    <p>Tanto de día como de noche, dar un paseo en barco por el Sena es imprescindible para descubrir la
+                        belleza de París desde una perspectiva única</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g7_china.jpg" alt="">
+                <div class="content">
+                    <h3>CHINA</h3>
+                    <p>Por su gran tamaño China cuenta con todos los paisajes que se pueden imaginar y además ofrece
+                        todo tipo de actividades para sus visitantes.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g8_india.jpeg" alt="">
+                <div class="content">
+                    <h3>INDIA</h3>
+                    <p>Disfruta a través de nuestro tour express conocer el Taj Mahal, pasear en el lomo de un elefante
+                        y hasta pasear en un típico tuk-tuk.</p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Imagenes/g9_egpto.jpg" alt="">
+                <div class="content">
+                    <h3>EGIPTO</h3>
+                    <p>Desierto, playa, oasis, montaña, ciudad, una experiencia de como sentirte que estás viajando en el tiempo. </p>
+                    <a href="#" class="btn">Ver más</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- finaliza seccion de galeria -->
+
+
+    <!-- inicia seccion de contactos-->
+
+
+    <section class="contactos" id="contactos">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+            <span>o</span>
+            <span>s</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="Imagenes/contac.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Asunto">
+                    <input type="number" placeholder="Telefono">
+                </div>
+                <textarea placeholder="Mensaje" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Enviar  >">
+            </form>
+        </div>
+    </section>
+    <!-- finaliza seccion de contactos -->
+
+        <!-- inicia seccion de review -->
+        <section class="experiencias" id="experiencias">
+            <h1 class="heading">
+                <span>e</span>
+                <span>x</span>
+                <span>p</span>
+                <span>e</span>
+                <span>r</span>
+                <span>i</span>
+                <span>e</span>
+                <span>n</span>
+                <span>c</span>
+                <span>i</span>
+                <span>a</span>
+                <span>s</span>
+            </h1>
+    
+            <div class="swiper-container review-slider">
+    
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Imagenes/pic1.png" alt="">
+                            <h2>Verónica Flores</h2>
+                            <p>Tuvimos una experiencia espectacular en nuestro viaje a Disney, desde la atención
+                                personalizada que nos brindó la agencia, evacuando cualquier tipo de dudas sobre el viaje y
+                                dando
+                                recomendaciones que nos fueron útiles en el viaje. Ya en destino, cumplieron con todo lo que
+                                teníamos pactado, súper recomendable!! 
+                                <br>
+                                <br>
+                            </p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Imagenes/pic2.png" alt="">
+                            <h2>Álvaro Ganiz</h2>
+                            <p>La experiencia que tuve fue excepcional e inolvidable. El equipo de organización de viajes me
+                                proporcionó una experiencia única y personalizada, que se convirtió en el mejor viaje de mi
+                                vida. Me gustaría expresar mi gratitud especial al guía turístico, que fue amable y
+                                profesional en todo momento
+                                <br>
+                                <br>
+                            </p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Imagenes/pic3.png" alt="">
+                            <h2>Rebecca Otero</h2>
+                            <p>Menuda experiencia, el hotel es desde el punto de vista arquitectura y decoración muy bonito,
+                                super acogedor. Las tiendas africanas espectaculares. El trato exquisito, la cocina
+                                buenísima! Y los tratamientos del spa muy buenos también. Lo dicho que de nuevo sois los
+                                mejores recomendando experiencias!!!! 
+                                <br>
+                                <br>
+                            </p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Imagenes/pic4.png" alt="">
+                            <h2>Samuel Bernal</h2>
+                            <p>Nuestra experiencia en Turquía fue fantástica en todos los sentidos. Sin embargo, nuestro
+                                guía turístico fue el verdadero punto destacado del viaje. Fue increíble en todos los
+                                aspectos, brindándonos una experiencia única e inolvidable. Muchas gracias por todo.
+                                <br>
+                                <br>
+                                <br>
+                            </p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- finaliza seccion de review -->
+
+    <!-- seccion de pie de pagina -->
+
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>enlaces</h3>
+                <a href="#">home</a>
+                <a href="#">Reservar</a>
+                <a href="#">servicios</a>
+                <a href="#">lugares</a>
+                <a href="#">contactos</a>
+                <a href="#">experiencias</a>
+
+
+            </div>
+            <div class="box">
+                <h3>Contactanos</h3>
+                <p>(0800) 345 86369654</p>
+
+            </div>
+            <div class="box">
+                <h3>Preguntas frecuentes</h3>
+                <a href="#">-Boton de Arrepentimiento</a>
+                <a href="#">-politas de cancelacion</a>
+                <a href="#">-terminos y condiciones</a>
+            </div>
+            
+        </div>
+
+
+        <h1 class="credit">Copyright © . Todos los derechos reservados. <br>  Privacidad / Mapa del Sitio / Términos de uso </h1>
+
+    </section>
+
+    <section>
+        <div>
+            <a href="htpp://wa.me/6966487566" class="whatsapp" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- enlace de archivo js personalizado -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+ 
